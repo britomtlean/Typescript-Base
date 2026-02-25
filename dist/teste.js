@@ -1,4 +1,7 @@
-export class Pessoa {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Pessoa = void 0;
+class Pessoa {
     nome;
     cpf;
     admin;
@@ -11,6 +14,7 @@ export class Pessoa {
         console.log('Eu me chamo ' + this.nome);
     };
 }
+exports.Pessoa = Pessoa;
 /*
 const Login: Cadastro = {
     Nome: 'Leandro',

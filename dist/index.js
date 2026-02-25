@@ -1,13 +1,15 @@
-import { Pessoa } from './teste.js';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const teste_1 = require("./teste");
 //INSTANCIANDO CLASSE PESSOA E USANDO SEUS MÉTODOS
-const Leandro = new Pessoa('Leandro', 18894805760, true);
+const Leandro = new teste_1.Pessoa('Leandro', 18894805760, true);
 Leandro.apresentar();
 /*************************************************************************** */
 /************************** TIPAGEM DE ARROW FUNCTION ********************************/
 const multiplay = (x, y) => x * y; // TIPAGEM POR TYPE *Calc*
 const result = multiplay(7, 7);
 console.log('Resultado: ' + result);
-const division = (x, y) => x / y; // TIPAGEM INDIRETA
+const division = (x, y) => x / y; // TIPAGEM DIRETA
 /*************************FUNÇÃO QUE RETORNA ARRAY*********************** */
 const criarArray = (...args) => {
     return args.map((array) => array.toUpperCase());

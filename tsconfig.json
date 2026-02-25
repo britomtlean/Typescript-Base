@@ -35,7 +35,7 @@
     // Recommended Options
     "strict": true, //Restrições de TS
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",

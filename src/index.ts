@@ -1,4 +1,4 @@
-import { Pessoa } from './teste.js';
+import { Pessoa } from './teste';
 import type { Calc, Linguagens, Cadastro } from './teste.js';
 
 //INSTANCIANDO CLASSE PESSOA E USANDO SEUS MÉTODOS
@@ -14,7 +14,7 @@ const result: number = multiplay(7, 7);
 
 console.log('Resultado: ' + result);
 
-const division: (x: number, y: number) => number = (x, y) => x / y; // TIPAGEM INDIRETA
+const division: (x: number, y: number) => number = (x, y) => x / y; // TIPAGEM DIRETA
 
 
 /*************************FUNÇÃO QUE RETORNA ARRAY*********************** */

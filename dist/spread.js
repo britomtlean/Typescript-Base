@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const motoNova = {
     marca: 'Yamaha',
     ano: 2026,
@@ -9,5 +11,4 @@ function comprarMoto(moto, titular) {
 }
 console.log('Sua compra foi registra: ');
 console.log(comprarMoto(motoNova, 'Leandro'));
-export {};
 //# sourceMappingURL=spread.js.map

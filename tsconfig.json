@@ -9,7 +9,7 @@
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
     "target": "esnext", //Versão do JS
-    "types": ["node"],
+    "types": ["node", "jest"],
     // For nodejs:
      "lib": ["esnext", "DOM"], //Especifica o que eu vou usar no meu projeto
     // "types": ["node"],

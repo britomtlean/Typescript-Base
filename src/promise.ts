@@ -4,7 +4,7 @@ type User = {
     age: number;
 };
 
-const promiseFunction = (): Promise<Array<User>> => {
+export const promiseFunction = (): Promise<Array<User>> => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve([

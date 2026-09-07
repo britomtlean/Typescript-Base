@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.promiseFunction = void 0;
 const promiseFunction = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -10,7 +11,8 @@ const promiseFunction = () => {
         }, 1000);
     });
 };
-promiseFunction().then((data) => {
+exports.promiseFunction = promiseFunction;
+(0, exports.promiseFunction)().then((data) => {
     console.log(data);
 });
 //# sourceMappingURL=promise.js.map
